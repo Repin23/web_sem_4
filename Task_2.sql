@@ -7,17 +7,17 @@ CREATE TABLE classmates (
 );
 
 -- insert
-INSERT INTO classmates VALUES (0001, 'Василий', 16, 'Тверь');
-INSERT INTO classmates VALUES (0002, 'Мария', 25, 'Москва');
-INSERT INTO classmates VALUES (0003, 'Петр', 18, 'Москва');
-INSERT INTO classmates VALUES (0004, 'София', 18, 'Владимир');
-INSERT INTO classmates VALUES (0005, 'Илья', 31, 'Казань');
-INSERT INTO classmates VALUES (0006, 'Надежда', 30, 'Москва');
+INSERT INTO classmates VALUES (0001, 'Александр', 23, 'Москва');
+INSERT INTO classmates VALUES (0002, 'Ирина', 25, 'Москва');
+INSERT INTO classmates VALUES (0003, 'Петр', 19, 'Москва');
+INSERT INTO classmates VALUES (0004, 'Анна', 18, 'Москва');
+INSERT INTO classmates VALUES (0005, 'Илья', 27, 'Москва');
+INSERT INTO classmates VALUES (0006, 'Галина', 18, 'Москва');
 INSERT INTO classmates VALUES (0007, 'Иван', 29, 'Москва');
-INSERT INTO classmates VALUES (0008, 'Наталия', 43, 'Хабаровск');
-INSERT INTO classmates VALUES (0009, 'Алексей', 28, 'Омск');
-INSERT INTO classmates VALUES (0010, 'Анатолий', 21, 'Москва');
-INSERT INTO classmates VALUES (0011, 'Виктория', 32, 'Москва');
+INSERT INTO classmates VALUES (0008, 'Федор', 23, 'Москва');
+INSERT INTO classmates VALUES (0009, 'Инокентий', 28, 'Москва');
+INSERT INTO classmates VALUES (0010, 'Олег', 21, 'Москва');
+INSERT INTO classmates VALUES (0011, 'Марина', 29, 'Москва');
 
 -- fetch 
-SELECT name FROM classmates WHERE address = 'Москва' AND age >= 18 AND age < 45;
+SELECT name FROM classmates WHERE address = 'Москва' AND age >= 18 AND age < 30;
